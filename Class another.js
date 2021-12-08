@@ -8,7 +8,6 @@ class Student {
         console.log(`${this.name} doing project`);
     }
 }
-
 firstStudent = new Student("Rahim","101")
 firstStudent.project()
 console.log(firstStudent);
