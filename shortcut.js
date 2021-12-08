@@ -18,3 +18,12 @@ let drink = (money >100 && myVar > 100) ? 'coke' : 'water'
 console.log(drink);
 
 
+let isActive = true ;
+const showUser = () => console.log("display User");
+const hideUser = () => console.log("hide User")
+// isActive ? showUser() : hideUser()
+isActive && showUser()
+isActive || hideUser()
+
+// toggle boolean 
+isActive =! isActive 
