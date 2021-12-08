@@ -12,9 +12,7 @@
  }
 
  const amir = new Support('Amir',"China");
- const Salman = new Support('Salman',"Poland");
  amir.startSession()
  console.log(amir);
- console.log(Salman);
 
 
