@@ -11,4 +11,4 @@ class Samsung(Mobile):  #call & mesage method চলে এসেছে samsung 
 
 s= Samsung()
 s.call()
-s.photo()
+s.photo() 
