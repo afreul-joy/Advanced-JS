@@ -1,15 +1,17 @@
 //Stack-> LIFO
 // Queue-> FIFO  Q আগে এবং F আগে
 
+// Stack data structure by using array in class
+
 class Numbers {
   constructor() {
-    this.stack = []; //Empty stack/ তাক
+    this.stack = [];            //Empty stack/ তাক 
   }
   add(element) {
-    this.stack.push(element); //push method for add element
+    this.stack.push(element);   //push for add element
   }
-  remove() {
-    return this.stack.pop(); //pop method for remove element
+  remove(element) {
+    this.stack.pop(element); //        //pop for remove last element
   }
 }
 

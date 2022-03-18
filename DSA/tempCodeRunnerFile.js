@@ -1,2 +1,2 @@
-plates.remove();
-console.log(plates.stack);
+person.remove()
+console.log(person.queue);
