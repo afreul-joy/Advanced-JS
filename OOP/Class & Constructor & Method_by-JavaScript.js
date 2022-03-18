@@ -1,6 +1,5 @@
  class Support {
-     name; 
-     designation ='Support Web Dev';   //property 
+     designation ='Support Web Dev';   //default property 
 
      constructor (name,address) {     //constructor-special method
         this.name=name;         
