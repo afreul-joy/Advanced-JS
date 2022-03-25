@@ -1,9 +1,13 @@
-const numbers = [45,64,43,22,66,88,12,6,7,23,15];
-
-function linearSearch(array,target) {
-    for (let i = 0; i < array.length; i++) {
-        const element = array[i];
-        
+const linearSearch = (arr,searchItem) => {
+    for(let i = 0; i<arr.length; i++){
+        if(arr[i] === searchItem){
+            return i;
+        }
     }
-  
+    return -1;
 }
+
+let players = ["warner","rohit","mustafizur","sakib","bravo","taylor"];
+// console.log(players.length);
+const res = linearSearch(players, 'sakib');
+console.log(res);
