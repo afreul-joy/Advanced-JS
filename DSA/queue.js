@@ -41,4 +41,3 @@ console.log(person.queue);
 
 
 
-
